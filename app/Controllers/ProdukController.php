@@ -6,6 +6,6 @@ class ProdukController extends BaseController
 {
     public function index(): string
     {
-        return view('/admin/v_produk');
+        return view('v_produk');
     }
 }

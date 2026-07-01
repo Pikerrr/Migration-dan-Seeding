@@ -6,6 +6,6 @@ class Profile extends BaseController
 {
     public function index()
     {
-        return view('/admin/v_profile');
+        return view('v_profile');
     }
 }
