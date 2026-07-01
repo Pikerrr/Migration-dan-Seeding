@@ -13,7 +13,7 @@ class Auth extends BaseController
         [
             'username' => 'fikri',
             'password' => '123',
-            'role'     => 'admin'
+            'role'     => 'guest'
         ]
     ];
 

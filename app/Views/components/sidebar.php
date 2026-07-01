@@ -9,12 +9,19 @@
       </a>
     </li>
 
+    <?php
+      if (session()->get('role') == 'admin') {
+      ?>
     <li class="nav-item">
       <a class="nav-link" href="<?= base_url('produk') ?>">
         <i class="bi bi-box"></i>
         <span>Produk</span>
       </a>
     </li>
+
+    <?php
+    }
+    ?>
 
     <li class="nav-item">
       <a class="nav-link" href="<?= base_url('keranjang') ?>">
